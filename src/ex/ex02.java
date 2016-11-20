@@ -17,8 +17,6 @@ public class ex02 {
 
 	public static float fun1(int[]v2,int v1){
 		float v3 = 0;
-		
-		
 	    for(int i = 0;i<v2.length;i++){
 		v3+=v2[i];
 	    }
@@ -28,7 +26,7 @@ public class ex02 {
 	public static float var1(float v3,int[]v2,int v1){
 	   float v4 = 0;
 		for(int v = 0;v<v2.length;v++){
-	    	v4 += Math.pow(v2[v]-v3/v1, 2);
+	    	v4 +=  Math.pow(v2[v]-v3/v1, 2);
 	    }
 	    float v5 = v4/v1;
 	    
